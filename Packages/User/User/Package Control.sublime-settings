@@ -1,0 +1,10 @@
+{
+	"auto_upgrade_last_run": 1349012003,
+	"installed_packages":
+	[
+		"BracketHighlighter",
+		"Package Control",
+		"SublimeLinter",
+		"ZenCoding"
+	]
+}

@@ -1,0 +1,595 @@
+{
+	"folder_history":
+	[
+		"/C/wamp/www/administrator"
+	],
+	"last_window_id": 1,
+	"settings":
+	{
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"buffers":
+			[
+				{
+					"contents": "[4/3/2014 20:25:05] Ivan Mijatovic: Hi Steven, \nHow are you ?\nUros ask me to see what is wrong with google analytics player events.\n\nCan you give me some more info?\n[4/3/2014 20:25:23] Steven Davis: do you have an analytics account\n[4/3/2014 20:25:29] Steven Davis: I will add you to omission report\n[4/3/2014 20:25:38] Steven Davis: the players should reflect those numbers\n[4/3/2014 20:25:49] Steven Davis: the omission trailer has stayed at 4 page loads\n[4/3/2014 20:25:52] Steven Davis: for days\n[4/3/2014 20:26:04] Ivan Mijatovic: email : ivanmijatovic89@gmail.com\n[4/3/2014 20:26:53] Ivan Mijatovic: Can you confirm me that events was working until few days ago ? \nDo you know when player stop sending events ?\n[4/3/2014 20:27:56] Ivan Mijatovic: email is for google analytics...\n[4/3/2014 20:40:45] Ivan Mijatovic: ping me when you add me on analytics\n[4/3/2014 20:40:57] Steven Davis: done\n[4/3/2014 20:42:24 | Edited 20:42:30] Ivan Mijatovic: Where do you see that omission trailer to have 4 page load ?\n[4/3/2014 20:42:35] Steven Davis: in the back of the analytics\n[4/3/2014 20:42:40] Steven Davis: on omediaplayer\n[4/3/2014 20:42:43] Steven Davis: in the admin user\n[4/3/2014 20:43:59] Ivan Mijatovic: i will ask you few question so i can figure out why this happend .\nDo you use this player on other sites ? If you do, how do you check analytics for other sites ?\n[4/3/2014 20:49:47] Steven Davis: there should be a section for sites\n[4/3/2014 20:49:50] Steven Davis: url\n[4/3/2014 20:52:52] Ivan Mijatovic: do you use this player on other sites ?\nIs there section for site urls or that sectin shoud be build in future?\n[4/3/2014 20:52:56] Steven Davis: time on site\n[4/3/2014 20:53:00] Steven Davis: needs to be one of them\n[4/3/2014 20:53:08] Steven Davis: yes\n[4/3/2014 20:54:30] Steven Davis: Day - URL - Page Load - Ad Delivery - Time on site\n[4/3/2014 20:55:06] Steven Davis: Give us as much info on the analtytics as possible\n[4/3/2014 20:55:26] Steven Davis: please list here right now all the information we will have to view on our players\n[4/3/2014 20:59:45] Steven Davis: are you there\n[4/3/2014 20:59:52] Ivan Mijatovic: I do sending events for video , Stefan does returning information from google analytics, so i am not sure what informations we have .... \nI can see what informations  i can retrive from analytics,\n[4/3/2014 20:59:52] Ivan Mijatovic: yes\n[4/3/2014 21:00:21] Steven Davis: ok give me all information you can receive from analtycits place in here\n[4/3/2014 21:00:26] Steven Davis: comma separated\n[4/3/2014 21:00:29] Steven Davis: then get it done\n[4/3/2014 21:16:34] Steven Davis: I need all that info asap\n[4/3/2014 21:17:50] Ivan Mijatovic: It seems that for returning informations from google analytics aplication  use GAPI - Google Analytics PHP Interface.\nGAPI is php class for exchanging information with google analytics.\nIt seems like GAPI do not have limitations, so probably we can get you any information that is possible to have on google analytics. I say probably, because I'm not sure, but i think that's possible to retrive anyinformations, because i found this:\n[4/3/2014 21:17:51 | Edited 21:18:00] Ivan Mijatovic: \"You can create simple query strings that represent the logic Google Analytics requires, but it is abstracted enough to be more readable and easier to work with.\"\n[4/3/2014 21:18:03] Ivan Mijatovic: http://code.google.com/p/gapi-google-analytics-php-interface/\n[4/3/2014 21:18:39] Ivan Mijatovic: If you can send query to google analytics, than you can probably query anything ...\n[4/3/2014 21:19:32] Ivan Mijatovic: Now back to problem with sending events, for that i need your google analytics password , or create me new account with all permissions.\n[4/3/2014 21:19:42] Ivan Mijatovic: i go smoke brb in 5 min\n[4/3/2014 21:24:33] Steven Davis: I need a number list of what events we can use\n[4/3/2014 21:24:34] Steven Davis: please asap\n[4/3/2014 21:36:40] Steven Davis: did you get that info\n[4/3/2014 21:37:47] Ivan Mijatovic: no\n[4/3/2014 21:37:57 | Edited 21:38:01] Ivan Mijatovic: please wait, i am search for it\n[4/3/2014 21:38:04] Steven Davis: ok\n[4/3/2014 21:39:42] Ivan Mijatovic: Events are manualy defined, so i can send what ever name i wanna for Event,\nor to put like this :\nI can create event that you wanna to be listed in admin section and than to retrive that Event from server\n[4/3/2014 21:40:03] Steven Davis: ok so anything pretty much\n[4/3/2014 21:42:03] Ivan Mijatovic: Yes , pretty much anything , \nbut i do not know how to query Events.\n[4/3/2014 21:42:21] Steven Davis: do you have a solute n\n[4/3/2014 21:42:55] Steven Davis: this is kinda of important because we paid for analytics inside the CMS and we currently do not have them\n[4/3/2014 21:48:31] Steven Davis: I am writing an email as we speak trying to explain what is going to happen to the investor\n[4/3/2014 21:48:38] Steven Davis: this is very important\n[4/3/2014 21:48:43] Steven Davis: so thats why I am rushing you\n[4/3/2014 21:49:02] Steven Davis: I am sorry but we need to figure how to get as much info from google analytics\n[4/3/2014 21:49:06] Steven Davis: to our CMS\n[4/3/2014 21:49:15] Steven Davis: within the next few days\n[4/3/2014 21:49:59] Ivan Mijatovic: ok , there is  no problem with rushing me.\nFor now i am trying to figure out what is problem and how to fix it . For now i have few ideas\n[4/3/2014 21:50:07] Ivan Mijatovic: I will try to explain problem (what i think is problem for now ):\n\nSending events for player is hardcoded - that means where ever you include player he will allways send events for same  google analytics account.\n\nNow player sending events to Shegeneration.com google analytics account\n[4/3/2014 21:50:40] Ivan Mijatovic: and when you log to your analytics ( omission ) there are no Events\n[4/3/2014 21:51:06] Ivan Mijatovic: Can you login to Shengeneration.com analytics\n[4/3/2014 21:51:07] Ivan Mijatovic: ?\n[4/3/2014 21:54:10] Steven Davis: oh\n[4/3/2014 21:54:30] Steven Davis: ok so we will create players for each site\n[4/3/2014 21:54:49] Steven Davis: so then you would only need it from our analytics\n[4/3/2014 21:57:05] Ivan Mijatovic: Creating analytics account for  each site is one solution.\nOther shoud be to we create Event Category for each site , and inside each Category  more Category ( Events )\n[4/3/2014 21:57:27] Steven Davis: can this be done fast\n[4/3/2014 21:57:30] Steven Davis: and within your team\n[4/3/2014 22:02:44] Ivan Mijatovic: My team went home,their working time is ended .\nI will be here few more hour.\nBut this thing can;t be fixed in such short time.\nActually to make this work need's much recoding to be done.\nI think this can't be done in 1-2-3 days.\nThis is not easy thing to do, and this require a lot of testing.\nIf we make that each site is our MAIN Category, than we need to recode again all codes analytics.\n[4/3/2014 22:04:13] Steven Davis: 1. Page Load\n 1. Video Load\n 2. Ad Requested \n 3. Ad Returned\n 4. Ad Play \n 5. Ad Finished \n 6. Time on Site\n 7. Page Views ( What pages they went to see after )\n 8. Bounce Rate\n[4/3/2014 22:04:30] Steven Davis: can this be in the Analytics\n[4/3/2014 22:04:38] Steven Davis: on our CMS\n[4/3/2014 22:05:41] Ivan Mijatovic: Give me few min to think about it.\n[4/3/2014 22:05:51] Steven Davis: ok\n[4/3/2014 22:25:27] Steven Davis: We are showing the player on friday to the investor\n[4/3/2014 22:25:44] Steven Davis: if this can not be finished by then it is pretty bad\n[4/3/2014 22:26:08] Steven Davis: We have been working on this player for a lot of months now\n[4/3/2014 22:26:15] Steven Davis: and now it is time to deliver\n[4/3/2014 22:30:43] Ivan Mijatovic: Ok, first 6 shoud be easy to do.\nbut number 6-7-8 are harder to do , or can;t be done>\n\n6. For time on site i shoud send event ( time)  when user leave page.\nThan in CMS i need to sum time and divide it with numbers of visits. \n\nThis is in theory,I'm not an expert in analytics, this idea came to my mind.\nGoogle analytics maybe allready have solution for situation like this. To found out this I have to go  deep into the Google Analytics API.\n\nIf we use solution like i write above, there can be serious deviations from the correct information.\n\nIt is same for Bounce rate.\n\nOn the other hand why do you have to use google analytics?\nYou just send custom events and retrive it from Google analytics ,why not just use databases (mysql) ?\n[4/3/2014 22:42:53] Steven Davis: how about of player stats\n[4/3/2014 22:42:57] Steven Davis: and page states\n[4/3/2014 22:43:03] Steven Davis: since they are different\n[4/3/2014 22:43:31] Steven Davis: and on the page stats just iframe the dashboard\n[4/3/2014 22:43:58] Steven Davis: and have a place to attach a analytic account to a user\n[4/3/2014 22:44:12] Steven Davis: and that analytic account will be attached to the page\n[4/3/2014 22:44:29] Steven Davis: can this be done in the next 48 hrs\n[4/3/2014 22:45:24] Steven Davis: or leave the page stats until next week and just get 1-6 working by the weekend\n[4/3/2014 22:50:04] Ivan Mijatovic: Does it need to work only for omission or  for any website ?\n[4/3/2014 22:50:10] Ivan Mijatovic: I do not know can it be done by weekend,  but we can try.\n[4/3/2014 22:51:27] Steven Davis: yes we are make 300 x 250 players out of this and place ing them on drudge report\n[4/3/2014 22:51:39] Steven Davis: we are making ads and putting them on sites\n[4/3/2014 22:51:43] Steven Davis: we need to know that data\n[4/3/2014 22:52:25] Steven Davis: so if I create a 300 x 250 player with a pre roll ad inside. and Send it to drudge report.com for them to embed on their site.\n[4/3/2014 22:52:50] Steven Davis: I want to be able to sign in and see the stats of how many times the ad plays so we can make money\n[4/3/2014 22:52:57] Steven Davis:     1.    Video Load\n    2.    Ad Requested\n    3.    Ad Returned\n    4.    Ad Play\n    5.    Ad Finished\n[4/3/2014 22:53:38] Steven Davis: 6. Video Requested\n7. Video Play \n8. Video End\n[4/3/2014 22:53:41] Steven Davis: can we add this\n[4/3/2014 22:53:48] Steven Davis: to these are all events\n[4/3/2014 22:54:02] Steven Davis: does this make sense\n[4/3/2014 22:54:39] Ivan Mijatovic: What mean Video End ( avarge time when video is stoped , or user go to other url )\n[4/3/2014 22:55:07] Steven Davis: how many times the video played until it was over\n[4/3/2014 22:55:28] Steven Davis: played completely\n[4/3/2014 22:56:09] Steven Davis: is there an event video stop\n[4/3/2014 23:01:55] Ivan Mijatovic:  As a matter of fact i think that this can't be done untile weekend. There is a really lot of work to make this happend. \nIt maybe can be done for 1 site ( hardcoded ), but if you are planing to use this on diffrent sites than needs to recode all code for google analytics. Frankly, i do not think to that is possible. We need first to make OUR API for google analytics, and that need time to plan.\nEven if we make it for weekend it shoud not work propertly.There is no time for testing ... etc\n[4/3/2014 23:02:14] Steven Davis:   1.    Video Load\n    2.    Ad Requested\n    3.    Ad Returned\n    4.    Ad Play\n    5.    Ad Finished\n[4/3/2014 23:02:23] Steven Davis: then do just this right now it doest even work\n[4/3/2014 23:02:31] Steven Davis: and I was told it worked\n[4/3/2014 23:02:40] Steven Davis: game over if it is not done by this weekend\n[4/3/2014 23:02:45] Steven Davis:   1.    Video Load\n    2.    Ad Requested\n    3.    Ad Returned\n    4.    Ad Play\n    5.    Ad Finished\n[4/3/2014 23:02:48] Steven Davis: that needs to work\n[4/3/2014 23:02:51] Steven Davis:  those are events\n[4/3/2014 23:03:00] Steven Davis: get that done please\n[4/3/2014 23:04:13] Ivan Mijatovic: Ok, iI'll do my best\n[4/3/2014 23:04:19] Ivan Mijatovic: Just for omission ?\n[4/3/2014 23:04:23] Steven Davis: yes\n[4/3/2014 23:04:57] Steven Davis: ok thanks\n[4/3/2014 23:05:22] Ivan Mijatovic: Did you give me admin permissions for omission google analytics ?\n[4/3/2014 23:05:38] Steven Davis: yeh\n[4/3/2014 23:07:17] Ivan Mijatovic: i need google analytics user and password to connect to google api.\n\nLast time i use my own google analytics account.\n\nIf you do not wanna give me user and pass , than i need to create some fake acc , and than you to give me admin permissions again.\n[4/3/2014 23:13:22] Ivan Mijatovic: do you know what site may have title : DRUDGE REPORT 2014®\n[4/3/2014 23:17:34] Steven Davis: ok do the fake account\n[4/3/2014 23:17:45] Steven Davis: or just keep the same you used for Iplayer\n[4/3/2014 23:22:36] Ivan Mijatovic: I give Stefan my acc user and pass , and i told him to make fake acc!!! He did not!. I can't give you my real user/pass.\nIf i make fake acc, but mabey google will require to confirm that Google Analytics can use that account. Something like that needs to be done i remember that.\nSometimes google do not replay ( send mail for permission ) right away, sometimes i was waiting few hours.\n\nI will create acc and we will see what will be.\n[4/3/2014 23:22:53] Ivan Mijatovic: i now making backup of website .\n[4/3/2014 23:23:00] Ivan Mijatovic: do you know what site may have title : DRUDGE REPORT 2014®\n[4/3/2014 23:24:07] Ivan Mijatovic: add this email: botovskimail10@gmail.com\n[4/3/2014 23:27:17] Steven Davis: www.drudgereport.com\n[4/3/2014 23:27:34] Steven Davis: thats the  site we are putting a 300 x 250 player on\n[4/3/2014 23:28:17] Steven Davis: Done Ivan\n[4/3/2014 23:28:24] Ivan Mijatovic: ok , thanks",
+					"settings":
+					{
+						"buffer_size": 13437,
+						"line_ending": "Windows",
+						"name": "[4/3/2014 20:25:05] Ivan Mijatovic: Hi Steven,"
+					}
+				},
+				{
+					"contents": "[4/3/2014 20:25:05] Ivan Mijatovic: Hi Steven, \nHow are you ?\nUros ask me to see what is wrong with google analytics player events.\n\nCan you give me some more info?\n[4/3/2014 20:25:23] Steven Davis: do you have an analytics account\n[4/3/2014 20:25:29] Steven Davis: I will add you to omission report\n[4/3/2014 20:25:38] Steven Davis: the players should reflect those numbers\n[4/3/2014 20:25:49] Steven Davis: the omission trailer has stayed at 4 page loads\n[4/3/2014 20:25:52] Steven Davis: for days\n[4/3/2014 20:26:04] Ivan Mijatovic: email : ivanmijatovic89@gmail.com\n[4/3/2014 20:26:53] Ivan Mijatovic: Can you confirm me that events was working until few days ago ? \nDo you know when player stop sending events ?\n[4/3/2014 20:27:56] Ivan Mijatovic: email is for google analytics...\n[4/3/2014 20:40:45] Ivan Mijatovic: ping me when you add me on analytics\n[4/3/2014 20:40:57] Steven Davis: done\n[4/3/2014 20:42:24 | Edited 20:42:30] Ivan Mijatovic: Where do you see that omission trailer to have 4 page load ?\n[4/3/2014 20:42:35] Steven Davis: in the back of the analytics\n[4/3/2014 20:42:40] Steven Davis: on omediaplayer\n[4/3/2014 20:42:43] Steven Davis: in the admin user\n[4/3/2014 20:43:59] Ivan Mijatovic: i will ask you few question so i can figure out why this happend .\nDo you use this player on other sites ? If you do, how do you check analytics for other sites ?\n[4/3/2014 20:49:47] Steven Davis: there should be a section for sites\n[4/3/2014 20:49:50] Steven Davis: url\n[4/3/2014 20:52:52] Ivan Mijatovic: do you use this player on other sites ?\nIs there section for site urls or that sectin shoud be build in future?\n[4/3/2014 20:52:56] Steven Davis: time on site\n[4/3/2014 20:53:00] Steven Davis: needs to be one of them\n[4/3/2014 20:53:08] Steven Davis: yes\n[4/3/2014 20:54:30] Steven Davis: Day - URL - Page Load - Ad Delivery - Time on site\n[4/3/2014 20:55:06] Steven Davis: Give us as much info on the analtytics as possible\n[4/3/2014 20:55:26] Steven Davis: please list here right now all the information we will have to view on our players\n[4/3/2014 20:59:45] Steven Davis: are you there\n[4/3/2014 20:59:52] Ivan Mijatovic: I do sending events for video , Stefan does returning information from google analytics, so i am not sure what informations we have .... \nI can see what informations  i can retrive from analytics,\n[4/3/2014 20:59:52] Ivan Mijatovic: yes\n[4/3/2014 21:00:21] Steven Davis: ok give me all information you can receive from analtycits place in here\n[4/3/2014 21:00:26] Steven Davis: comma separated\n[4/3/2014 21:00:29] Steven Davis: then get it done\n[4/3/2014 21:16:34] Steven Davis: I need all that info asap\n[4/3/2014 21:17:50] Ivan Mijatovic: It seems that for returning informations from google analytics aplication  use GAPI - Google Analytics PHP Interface.\nGAPI is php class for exchanging information with google analytics.\nIt seems like GAPI do not have limitations, so probably we can get you any information that is possible to have on google analytics. I say probably, because I'm not sure, but i think that's possible to retrive anyinformations, because i found this:\n[4/3/2014 21:17:51 | Edited 21:18:00] Ivan Mijatovic: \"You can create simple query strings that represent the logic Google Analytics requires, but it is abstracted enough to be more readable and easier to work with.\"\n[4/3/2014 21:18:03] Ivan Mijatovic: http://code.google.com/p/gapi-google-analytics-php-interface/\n[4/3/2014 21:18:39] Ivan Mijatovic: If you can send query to google analytics, than you can probably query anything ...\n[4/3/2014 21:19:32] Ivan Mijatovic: Now back to problem with sending events, for that i need your google analytics password , or create me new account with all permissions.\n[4/3/2014 21:19:42] Ivan Mijatovic: i go smoke brb in 5 min\n[4/3/2014 21:24:33] Steven Davis: I need a number list of what events we can use\n[4/3/2014 21:24:34] Steven Davis: please asap\n[4/3/2014 21:36:40] Steven Davis: did you get that info\n[4/3/2014 21:37:47] Ivan Mijatovic: no\n[4/3/2014 21:37:57 | Edited 21:38:01] Ivan Mijatovic: please wait, i am search for it\n[4/3/2014 21:38:04] Steven Davis: ok\n[4/3/2014 21:39:42] Ivan Mijatovic: Events are manualy defined, so i can send what ever name i wanna for Event,\nor to put like this :\nI can create event that you wanna to be listed in admin section and than to retrive that Event from server\n[4/3/2014 21:40:03] Steven Davis: ok so anything pretty much\n[4/3/2014 21:42:03] Ivan Mijatovic: Yes , pretty much anything , \nbut i do not know how to query Events.\n[4/3/2014 21:42:21] Steven Davis: do you have a solute n\n[4/3/2014 21:42:55] Steven Davis: this is kinda of important because we paid for analytics inside the CMS and we currently do not have them\n[4/3/2014 21:48:31] Steven Davis: I am writing an email as we speak trying to explain what is going to happen to the investor\n[4/3/2014 21:48:38] Steven Davis: this is very important\n[4/3/2014 21:48:43] Steven Davis: so thats why I am rushing you\n[4/3/2014 21:49:02] Steven Davis: I am sorry but we need to figure how to get as much info from google analytics\n[4/3/2014 21:49:06] Steven Davis: to our CMS\n[4/3/2014 21:49:15] Steven Davis: within the next few days\n[4/3/2014 21:49:59] Ivan Mijatovic: ok , there is  no problem with rushing me.\nFor now i am trying to figure out what is problem and how to fix it . For now i have few ideas\n[4/3/2014 21:50:07] Ivan Mijatovic: I will try to explain problem (what i think is problem for now ):\n\nSending events for player is hardcoded - that means where ever you include player he will allways send events for same  google analytics account.\n\nNow player sending events to Shegeneration.com google analytics account\n[4/3/2014 21:50:40] Ivan Mijatovic: and when you log to your analytics ( omission ) there are no Events\n[4/3/2014 21:51:06] Ivan Mijatovic: Can you login to Shengeneration.com analytics\n[4/3/2014 21:51:07] Ivan Mijatovic: ?\n[4/3/2014 21:54:10] Steven Davis: oh\n[4/3/2014 21:54:30] Steven Davis: ok so we will create players for each site\n[4/3/2014 21:54:49] Steven Davis: so then you would only need it from our analytics\n[4/3/2014 21:57:05] Ivan Mijatovic: Creating analytics account for  each site is one solution.\nOther shoud be to we create Event Category for each site , and inside each Category  more Category ( Events )\n[4/3/2014 21:57:27] Steven Davis: can this be done fast\n[4/3/2014 21:57:30] Steven Davis: and within your team\n[4/3/2014 22:02:44] Ivan Mijatovic: My team went home,their working time is ended .\nI will be here few more hour.\nBut this thing can;t be fixed in such short time.\nActually to make this work need's much recoding to be done.\nI think this can't be done in 1-2-3 days.\nThis is not easy thing to do, and this require a lot of testing.\nIf we make that each site is our MAIN Category, than we need to recode again all codes analytics.\n[4/3/2014 22:04:13] Steven Davis: 1. Page Load\n 1. Video Load\n 2. Ad Requested \n 3. Ad Returned\n 4. Ad Play \n 5. Ad Finished \n 6. Time on Site\n 7. Page Views ( What pages they went to see after )\n 8. Bounce Rate\n[4/3/2014 22:04:30] Steven Davis: can this be in the Analytics\n[4/3/2014 22:04:38] Steven Davis: on our CMS\n[4/3/2014 22:05:41] Ivan Mijatovic: Give me few min to think about it.\n[4/3/2014 22:05:51] Steven Davis: ok\n[4/3/2014 22:25:27] Steven Davis: We are showing the player on friday to the investor\n[4/3/2014 22:25:44] Steven Davis: if this can not be finished by then it is pretty bad\n[4/3/2014 22:26:08] Steven Davis: We have been working on this player for a lot of months now\n[4/3/2014 22:26:15] Steven Davis: and now it is time to deliver\n[4/3/2014 22:30:43] Ivan Mijatovic: Ok, first 6 shoud be easy to do.\nbut number 6-7-8 are harder to do , or can;t be done>\n\n6. For time on site i shoud send event ( time)  when user leave page.\nThan in CMS i need to sum time and divide it with numbers of visits. \n\nThis is in theory,I'm not an expert in analytics, this idea came to my mind.\nGoogle analytics maybe allready have solution for situation like this. To found out this I have to go  deep into the Google Analytics API.\n\nIf we use solution like i write above, there can be serious deviations from the correct information.\n\nIt is same for Bounce rate.\n\nOn the other hand why do you have to use google analytics?\nYou just send custom events and retrive it from Google analytics ,why not just use databases (mysql) ?\n[4/3/2014 22:42:53] Steven Davis: how about of player stats\n[4/3/2014 22:42:57] Steven Davis: and page states\n[4/3/2014 22:43:03] Steven Davis: since they are different\n[4/3/2014 22:43:31] Steven Davis: and on the page stats just iframe the dashboard\n[4/3/2014 22:43:58] Steven Davis: and have a place to attach a analytic account to a user\n[4/3/2014 22:44:12] Steven Davis: and that analytic account will be attached to the page\n[4/3/2014 22:44:29] Steven Davis: can this be done in the next 48 hrs\n[4/3/2014 22:45:24] Steven Davis: or leave the page stats until next week and just get 1-6 working by the weekend\n[4/3/2014 22:50:04] Ivan Mijatovic: Does it need to work only for omission or  for any website ?\n[4/3/2014 22:50:10] Ivan Mijatovic: I do not know can it be done by weekend,  but we can try.\n[4/3/2014 22:51:27] Steven Davis: yes we are make 300 x 250 players out of this and place ing them on drudge report\n[4/3/2014 22:51:39] Steven Davis: we are making ads and putting them on sites\n[4/3/2014 22:51:43] Steven Davis: we need to know that data\n[4/3/2014 22:52:25] Steven Davis: so if I create a 300 x 250 player with a pre roll ad inside. and Send it to drudge report.com for them to embed on their site.\n[4/3/2014 22:52:50] Steven Davis: I want to be able to sign in and see the stats of how many times the ad plays so we can make money\n[4/3/2014 22:52:57] Steven Davis:     1.    Video Load\n    2.    Ad Requested\n    3.    Ad Returned\n    4.    Ad Play\n    5.    Ad Finished\n[4/3/2014 22:53:38] Steven Davis: 6. Video Requested\n7. Video Play \n8. Video End\n[4/3/2014 22:53:41] Steven Davis: can we add this\n[4/3/2014 22:53:48] Steven Davis: to these are all events\n[4/3/2014 22:54:02] Steven Davis: does this make sense\n[4/3/2014 22:54:39] Ivan Mijatovic: What mean Video End ( avarge time when video is stoped , or user go to other url )\n[4/3/2014 22:55:07] Steven Davis: how many times the video played until it was over\n[4/3/2014 22:55:28] Steven Davis: played completely\n[4/3/2014 22:56:09] Steven Davis: is there an event video stop\n[4/3/2014 23:01:55] Ivan Mijatovic:  As a matter of fact i think that this can't be done untile weekend. There is a really lot of work to make this happend. \nIt maybe can be done for 1 site ( hardcoded ), but if you are planing to use this on diffrent sites than needs to recode all code for google analytics. Frankly, i do not think to that is possible. We need first to make OUR API for google analytics, and that need time to plan.\nEven if we make it for weekend it shoud not work propertly.There is no time for testing ... etc\n[4/3/2014 23:02:14] Steven Davis:   1.    Video Load\n    2.    Ad Requested\n    3.    Ad Returned\n    4.    Ad Play\n    5.    Ad Finished\n[4/3/2014 23:02:23] Steven Davis: then do just this right now it doest even work\n[4/3/2014 23:02:31] Steven Davis: and I was told it worked\n[4/3/2014 23:02:40] Steven Davis: game over if it is not done by this weekend\n[4/3/2014 23:02:45] Steven Davis:   \n    1.    Video Load\n    2.    Ad Requested\n    3.    Ad Returned\n    4.    Ad Play\n    5.    Ad Finished\n[4/3/2014 23:02:48] Steven Davis: that needs to work\n[4/3/2014 23:02:51] Steven Davis:  those are events\n[4/3/2014 23:03:00] Steven Davis: get that done please\n[4/3/2014 23:04:13] Ivan Mijatovic: Ok, iI'll do my best\n[4/3/2014 23:04:19] Ivan Mijatovic: Just for omission ?\n[4/3/2014 23:04:23] Steven Davis: yes\n[4/3/2014 23:04:57] Steven Davis: ok thanks\n[4/3/2014 23:05:22] Ivan Mijatovic: Did you give me admin permissions for omission google analytics ?\n[4/3/2014 23:05:38] Steven Davis: yeh\n[4/3/2014 23:07:17] Ivan Mijatovic: i need google analytics user and password to connect to google api.\n\nLast time i use my own google analytics account.\n\nIf you do not wanna give me user and pass , than i need to create some fake acc , and than you to give me admin permissions again.\n[4/3/2014 23:13:22] Ivan Mijatovic: do you know what site may have title : DRUDGE REPORT 2014®\n[4/3/2014 23:17:34] Steven Davis: ok do the fake account\n[4/3/2014 23:22:36] Ivan Mijatovic: If i make fake acc, but mabey google will require to confirm that Google Analytics can use that account. Something like that needs to be done i remember that.\nSometimes google do not replay ( send mail for permission ) right away, sometimes i was waiting few hours.\n\nI will create acc and we will see what will be.\n[4/3/2014 23:22:53] Ivan Mijatovic: i now making backup of website .\n[4/3/2014 23:23:00] Ivan Mijatovic: [Thursday, April 03, 2014 23:13] Ivan Mijatovic: \n\n<<< do you know what site may have title : DRUDGE REPORT 2014®\n[4/3/2014 23:24:07] Ivan Mijatovic: add this email: botovskimail10@gmail.com\n[4/3/2014 23:27:17] Steven Davis: www.drudgereport.com\n[4/3/2014 23:27:34] Steven Davis: thats the  site we are putting a 300 x 250 player on\n[4/3/2014 23:28:17] Steven Davis: Done Ivan\n[4/3/2014 23:28:24] Ivan Mijatovic: ok , thanks",
+					"file": "/C/Users/ivan/Desktop/steven",
+					"file_size": 13500,
+					"file_write_time": 130410626097128704,
+					"settings":
+					{
+						"buffer_size": 13299,
+						"line_ending": "Windows",
+						"name": "[4/3/2014 20:25:05] Ivan Mijatovic: Hi Steven,"
+					}
+				},
+				{
+					"settings":
+					{
+						"buffer_size": 0,
+						"line_ending": "Windows"
+					}
+				}
+			],
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 35.0,
+				"selected_items":
+				[
+					[
+						"install",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 512.0
+			},
+			"console":
+			{
+				"height": 0.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/C/wamp/www/administrator/app/config/administrator/jobs.php",
+				"/D/Loopia- site/Apartmani-U-Beogradu/2013.07.07/apa/application/views/frontend/js_css.php",
+				"/C/Users/ivan/AppData/Local/Temp/scp04224/public_html/app/views/users/forgot.blade.php",
+				"/C/Users/ivan/Desktop/kepke.js",
+				"/C/Users/ivan/Desktop/kepke.html",
+				"/C/Users/ivan/Desktop/index.html",
+				"/C/Users/ivan/AppData/Local/Temp/scp04152/public_html/app/views/tweets/create.blade.php"
+			],
+			"find":
+			{
+				"height": 38.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"stefa",
+					"stefan",
+					"fake"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/C/wamp/www/administrator"
+				}
+			],
+			"groups":
+			[
+				{
+					"selected": 2,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"settings":
+							{
+								"buffer_size": 13437,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										2179,
+										2184
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"annotations":
+									[
+										"TODO",
+										"README",
+										"FIXME"
+									],
+									"auto_name": "[4/3/2014 20:25:05] Ivan Mijatovic: Hi Steven,",
+									"bh_regions":
+									[
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close"
+									],
+									"csslint_options":
+									{
+										"adjoining-classes": "warning",
+										"box-model": true,
+										"box-sizing": "warning",
+										"compatible-vendor-prefixes": "warning",
+										"display-property-grouping": true,
+										"duplicate-background-images": "warning",
+										"duplicate-properties": true,
+										"empty-rules": true,
+										"errors": true,
+										"fallback-colors": "warning",
+										"floats": "warning",
+										"font-faces": "warning",
+										"font-sizes": "warning",
+										"gradients": "warning",
+										"ids": "warning",
+										"import": "warning",
+										"important": "warning",
+										"known-properties": true,
+										"outline-none": "warning",
+										"overqualified-elements": "warning",
+										"qualified-headings": "warning",
+										"regex-selectors": "warning",
+										"rules-count": "warning",
+										"shorthand": "warning",
+										"star-property-hack": "warning",
+										"text-indent": "warning",
+										"underscore-property-hack": "warning",
+										"unique-headings": "warning",
+										"universal-selector": "warning",
+										"vendor-prefix": true,
+										"zero-units": "warning"
+									},
+									"gjslint_ignore":
+									[
+										110
+									],
+									"gjslint_options":
+									[
+									],
+									"javascript_linter": "jshint",
+									"jshint_options":
+									{
+										"browser": true,
+										"evil": true,
+										"regexdash": true,
+										"sub": true,
+										"trailing": true,
+										"wsh": true
+									},
+									"pep8": true,
+									"pep8_ignore":
+									[
+										"E501"
+									],
+									"perl_linter": "perlcritic",
+									"pyflakes_ignore":
+									[
+									],
+									"pyflakes_ignore_import_*": true,
+									"sublimelinter": true,
+									"sublimelinter_delay": 2,
+									"sublimelinter_disable":
+									[
+									],
+									"sublimelinter_executable_map":
+									{
+									},
+									"sublimelinter_fill_outlines": false,
+									"sublimelinter_gutter_marks": true,
+									"sublimelinter_gutter_marks_theme": "simple",
+									"sublimelinter_mark_style": "none",
+									"sublimelinter_notes": false,
+									"sublimelinter_objj_check_ascii": false,
+									"sublimelinter_popup_errors_on_save": false,
+									"sublimelinter_syntax_map":
+									{
+										"C++": "c",
+										"Python Django": "python",
+										"Ruby on Rails": "ruby"
+									},
+									"sublimelinter_wrap_find": true,
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 264.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/C/Users/ivan/Desktop/steven",
+							"settings":
+							{
+								"buffer_size": 13299,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										2284,
+										2284
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"annotations":
+									[
+										"TODO",
+										"README",
+										"FIXME"
+									],
+									"auto_name": "[4/3/2014 20:25:05] Ivan Mijatovic: Hi Steven,",
+									"bh_regions":
+									[
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close"
+									],
+									"csslint_options":
+									{
+										"adjoining-classes": "warning",
+										"box-model": true,
+										"box-sizing": "warning",
+										"compatible-vendor-prefixes": "warning",
+										"display-property-grouping": true,
+										"duplicate-background-images": "warning",
+										"duplicate-properties": true,
+										"empty-rules": true,
+										"errors": true,
+										"fallback-colors": "warning",
+										"floats": "warning",
+										"font-faces": "warning",
+										"font-sizes": "warning",
+										"gradients": "warning",
+										"ids": "warning",
+										"import": "warning",
+										"important": "warning",
+										"known-properties": true,
+										"outline-none": "warning",
+										"overqualified-elements": "warning",
+										"qualified-headings": "warning",
+										"regex-selectors": "warning",
+										"rules-count": "warning",
+										"shorthand": "warning",
+										"star-property-hack": "warning",
+										"text-indent": "warning",
+										"underscore-property-hack": "warning",
+										"unique-headings": "warning",
+										"universal-selector": "warning",
+										"vendor-prefix": true,
+										"zero-units": "warning"
+									},
+									"gjslint_ignore":
+									[
+										110
+									],
+									"gjslint_options":
+									[
+									],
+									"javascript_linter": "jshint",
+									"jshint_options":
+									{
+										"browser": true,
+										"evil": true,
+										"regexdash": true,
+										"sub": true,
+										"trailing": true,
+										"wsh": true
+									},
+									"pep8": true,
+									"pep8_ignore":
+									[
+										"E501"
+									],
+									"perl_linter": "perlcritic",
+									"pyflakes_ignore":
+									[
+									],
+									"pyflakes_ignore_import_*": true,
+									"sublimelinter": true,
+									"sublimelinter_delay": 2,
+									"sublimelinter_disable":
+									[
+									],
+									"sublimelinter_executable_map":
+									{
+									},
+									"sublimelinter_fill_outlines": false,
+									"sublimelinter_gutter_marks": true,
+									"sublimelinter_gutter_marks_theme": "simple",
+									"sublimelinter_mark_style": "none",
+									"sublimelinter_notes": false,
+									"sublimelinter_objj_check_ascii": false,
+									"sublimelinter_popup_errors_on_save": false,
+									"sublimelinter_syntax_map":
+									{
+										"C++": "c",
+										"Python Django": "python",
+										"Ruby on Rails": "ruby"
+									},
+									"sublimelinter_wrap_find": true,
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 220.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"settings":
+							{
+								"buffer_size": 0,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"BracketHighlighterBusy": false,
+									"bh_regions":
+									[
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close"
+									],
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"position": "0,0,1,-1,-1,-1,-1,1000,811,288,1604",
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 262.0,
+			"status_bar_visible": true,
+			"window_id": 1,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

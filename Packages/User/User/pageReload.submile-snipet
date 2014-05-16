@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+$page = $_SERVER['PHP_SELF'];
+$sec = "1";
+header("Refresh: $sec; url=$page");
+
+echo "Watch the page reload itself!".'<br><br><br><br>';
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>pageReload</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+	<description>reload strane</description>
+</snippet>

@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+
+<form action="${1:index.php}" method="POST">
+${2}
+
+</form>
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>mala</tabTrigger>
+<!-- 	<description>obicna funkcija</description> -->
+
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	
+</snippet>
