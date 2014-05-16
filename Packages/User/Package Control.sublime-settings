@@ -2,6 +2,7 @@
 	"auto_upgrade_last_run": null,
 	"installed_packages":
 	[
+		"Bootstrap 3 Snippets",
 		"BracketHighlighter",
 		"Package Control",
 		"SublimeLinter",
