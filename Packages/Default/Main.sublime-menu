@@ -700,6 +700,7 @@
             { "caption": "-" },
             { "command": "new_plugin", "caption": "New Plugin…" },
             { "command": "new_snippet", "caption": "New Snippet…" },
+            { "command": "new_snippet", "caption": "Proba New Snippet…" },
             { "caption": "-", "id": "end" }
         ]
     },
